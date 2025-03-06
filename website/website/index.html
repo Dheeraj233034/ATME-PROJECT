@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage with Carousel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <p class="atme">ATME COLLEGE OF ENGINEERING</p>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+     <marquee class="marquee">ATME COLLEGE OF ENGINEERING 2025</marquee>
+    <!-- Carousel Section -->
+    <section id="home" class="carousel">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="img-1" checked>
+            <input type="radio" name="radio-btn" id="img-2">
+            <input type="radio" name="radio-btn" id="img-3">
+
+            <div class="slide first">
+                <img src="01.jpg" alt="Slide 1">
+            </div>
+            <div class="slide">
+                <img src="3.jpg" alt="Slide 2">
+            </div>
+            <div class="slide">
+                <img src="4.jpg" alt="Slide 3">
+            </div>
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+
+            <div class="navigation-manual">
+                <label for="img-1" class="manual-btn"></label>
+                <label for="img-2" class="manual-btn"></label>
+                <label for="img-3" class="manual-btn"></label>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About</h2>
+        <p>The student’s council of ATME College of Engineering aims at evolving a holistic approach to enhance students’ life at the campus. The Student Council would take up the responsibility of building the Institute’s brand image in the learners’ mind and would constantly strive towards enriching congenial and enlightening experience among their students’ fraternity. It is a students’ forum that would inculcate desirable attitude, leadership qualities, social skills, cultural talents and focuses on the overall development of each individual student at the Institute.
+
+            The Student Council exists to promote the quality of student life within and outside the institute. It is a support system for the holistic development of the students and works in liaison with the offices of the Deans and respective Departments of the Institute. The Student Council functions under the supervision of the Dean-Student Affairs duly coordinated by the Faculty Coordinators of the Student Council from each Department.</p>.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p> <p>
+            <span class="icon">📍</span>
+            <strong>Location:</strong><br>
+            ATME College of Engineering<br>
+            13th Kilometer, Mysore – Kanakapura – Bangalore Road,<br>
+            Mysore – 570 028 Karnataka
+        </p>
+        <p>
+            <span class="icon">📞</span>
+            <strong>Call Us:</strong><br>
+            0821-2954081 / 0821-2954011
+        </p> 
+        <p>
+            <span class="icon">📞</span>
+            <strong>Call Us - 2:</strong><br>
+            +91 9448285641 / +91 9448285644
+        </p> 
+        <p>
+            <span class="icon">✉️</span>
+            <strong>Mail Us:</strong><br>
+            <a href="mailto:info@atme.edu.in">info@atme.edu.in</a>
+        </p></p>
+    </section>
+</body>
+</html>
